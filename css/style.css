@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  font-family: inter;
+  font-size: 1.125rem;
+  color: black;
+  background-color: white;
+  line-height: 28px;
+}
+
+/* Hero */
+
+header {
+  background-image: url(../assets/images/donation2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(360deg, #121212ee 0%, rgba(18, 18, 18, 0.3) 100%);
+}
+
+.hero-heading {
+  font-size: 65px;
+  line-height: 78px;
+  max-width: 820px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero-info {
+  max-width: 680px;
+  margin-bottom: 30px;
+}
+
+.button {
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #ff5959;
+  padding: 16px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
