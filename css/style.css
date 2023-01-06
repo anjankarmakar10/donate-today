@@ -10,7 +10,16 @@ body {
   font-size: 1.125rem;
   color: black;
   background-color: white;
+}
+p {
+  color: #707070;
   line-height: 28px;
+}
+h2 {
+  font-size: 45px;
+  color: #121212;
+  line-height: 54px;
+  font-weight: 700;
 }
 
 /* Hero */
@@ -20,6 +29,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 130px;
 }
 
 .hero {
@@ -44,6 +54,7 @@ header {
 .hero-info {
   max-width: 680px;
   margin-bottom: 30px;
+  color: white;
 }
 
 .button {
@@ -56,3 +67,56 @@ header {
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* Donate Today */
+
+.donate-today {
+  max-width: 850px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.donate-today-heading {
+  margin-bottom: 20px;
+}
+.donate-today-info {
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.donate-amount-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.donate-amount {
+  padding: 44px 23px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.donate-amount:nth-child(5) {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+}
+
+.other-amount {
+  max-width: 850;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: #b3b3b3;
+  border-bottom: 1px solid #dadada;
+}
+
