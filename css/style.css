@@ -83,7 +83,7 @@ header {
 }
 .donate-today-info {
   margin-bottom: 50px;
-  max-width: 700px;
+  max-width: 690px;
   margin-inline: auto;
 }
 
@@ -120,3 +120,55 @@ header {
   border-bottom: 1px solid #dadada;
 }
 
+/* Donate Plan */
+
+.donate-plan {
+  max-width: 1120px;
+  padding-inline: 1rem;
+  margin-inline: auto;
+  margin-bottom: 130px;
+}
+
+.donate-plan-heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.donate-plan-info {
+  margin-bottom: 50px;
+  max-width: 690px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.donate-plan-card-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-plan-card {
+  padding-inline: 22px;
+  padding-block: 62px 54px;
+  border-radius: 6px;
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.donate-plan-card-icon img {
+  width: 58px;
+  margin-bottom: 30px;
+}
+
+.donate-plan-card-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 16px;
+}
+
+.donate-plan-card-info {
+  font-size: 1rem;
+  max-width: 300px;
+}
